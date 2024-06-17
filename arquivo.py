@@ -82,13 +82,3 @@ plt.ylabel("Posição")
 
 plt.tight_layout(rect=[0, 0, 1, 0.95])  # Ajusta automaticamente os subplots para caber na figura
 plt.show()
-
-
-#plot 2:
-xpoints= [1,2,3,4,5,6,7,8,9,10,11,12]
-ypoints= posicao [piloto2]
-
-plt.subplot(1, 2, 2)
-plt.plot(xpoints , ypoints)
-
-plt.show()
